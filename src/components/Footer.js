@@ -5,45 +5,45 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  const year = new Date().getFullYear();
+
   return (
-    <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-bodyl">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/Prs96"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-          </ul>
+    <Container fluid className="footer py-4">
+      <Row className="align-items-center">
+        {/* Social Icons Row that reorganizes on different screen sizes */}
+        <Col xs={4} md={4} className="d-flex justify-content-start">
+          <a
+            href="https://github.com/Prs96"
+            style={{ color: "white", fontSize: "1.5rem" }}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            className="social-icon"
+          >
+            <AiFillGithub />
+          </a>
         </Col>
-        <Col md="4" className="footer-dog">
+
+        <Col xs={4} md={4} className="d-flex justify-content-center">
           <img
             src={dogGif}
             alt="Cute Dog"
-            style={{ width: "50px", height: "auto" }}
+            className="img-fluid"
+            style={{ maxWidth: "50px" }}
           />
         </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/s-pranav-s/"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-          </ul>
+
+        <Col xs={4} md={4} className="d-flex justify-content-end">
+          <a
+            href="https://www.linkedin.com/in/s-pranav-s/"
+            style={{ color: "white", fontSize: "1.5rem" }}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            className="social-icon"
+          >
+            <FaLinkedinIn />
+          </a>
         </Col>
       </Row>
     </Container>
