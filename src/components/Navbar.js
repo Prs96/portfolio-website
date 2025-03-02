@@ -37,9 +37,14 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/portfolio-website" className="d-flex">
+        <Navbar.Brand
+          onClick={() => window.location.reload()}
+          className="d-flex"
+          style={{ cursor: "pointer" }}
+        >
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
+
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
