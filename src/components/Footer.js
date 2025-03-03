@@ -8,7 +8,11 @@ function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <Container fluid className="footer py-4">
+    <Container
+      fluid
+      className="footer py-4 "
+      style={{ bottom: "0", width: "100%" }}
+    >
       <Row className="align-items-center">
         {/* Social Icons Row that reorganizes on different screen sizes */}
         <Col xs={4} md={4} className="d-flex justify-content-start">
