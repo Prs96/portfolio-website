@@ -6,7 +6,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   const year = new Date().getFullYear();
-
   return (
     <Container
       fluid
@@ -15,7 +14,7 @@ function Footer() {
     >
       <Row className="align-items-center">
         {/* Social Icons Row that reorganizes on different screen sizes */}
-        <Col xs={4} md={4} className="d-flex justify-content-start">
+        <Col xs={4} md={4} className="d-flex justify-content-start ps-4">
           <a
             href="https://github.com/Prs96"
             style={{ color: "white", fontSize: "1.5rem" }}
@@ -27,7 +26,6 @@ function Footer() {
             <AiFillGithub />
           </a>
         </Col>
-
         <Col xs={4} md={4} className="d-flex justify-content-center">
           <img
             src={dogGif}
@@ -36,8 +34,7 @@ function Footer() {
             style={{ maxWidth: "50px" }}
           />
         </Col>
-
-        <Col xs={4} md={4} className="d-flex justify-content-end">
+        <Col xs={4} md={4} className="d-flex justify-content-end pe-4">
           <a
             href="https://www.linkedin.com/in/s-pranav-s/"
             style={{ color: "white", fontSize: "1.5rem" }}
