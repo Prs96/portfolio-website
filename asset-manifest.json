@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.e97b1c5a.css",
-    "main.js": "/static/js/main.e585e91a.js",
+    "main.js": "/static/js/main.623ff6ff.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Rice.jpg": "/static/media/Rice.20370ccfa1a7e2d0c332.jpg",
     "static/media/profile.png": "/static/media/profile.cdc25f8e543fb1ad4559.png",
-    "static/media/Pranav CV.pdf": "/static/media/Pranav CV.5102dd7ab41ec5b7cbe5.pdf",
     "static/media/TaskMan.png": "/static/media/TaskMan.08bf0af92b84e34be816.png",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Pranav CV.pdf": "/static/media/Pranav CV.529f6c9e205702aed997.pdf",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/rewiki.jpg": "/static/media/rewiki.91c70acf274e1a565307.jpg",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
@@ -17,12 +17,12 @@
     "index.html": "/index.html",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.e97b1c5a.css.map": "/static/css/main.e97b1c5a.css.map",
-    "main.e585e91a.js.map": "/static/js/main.e585e91a.js.map",
+    "main.623ff6ff.js.map": "/static/js/main.623ff6ff.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e97b1c5a.css",
-    "static/js/main.e585e91a.js"
+    "static/js/main.623ff6ff.js"
   ]
 }
