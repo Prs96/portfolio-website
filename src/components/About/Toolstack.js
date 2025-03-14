@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { SiNeovim, SiAdobepremierepro, SiVercel } from "react-icons/si";
-import { DiLinux } from "react-icons/di";
+import { DiLinux, DiGit } from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -10,14 +10,13 @@ function Toolstack() {
         <DiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiNeovim />
       </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <SiAdobepremierepro />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
       </Col>
     </Row>
   );

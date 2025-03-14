@@ -3,7 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
-  DiGit,
   DiPython,
   DiJava,
   DiDjango,
@@ -19,9 +18,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiDjango />
