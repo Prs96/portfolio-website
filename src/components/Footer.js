@@ -9,7 +9,7 @@ function Footer() {
   return (
     <Container
       fluid
-      className="footer py-4 "
+      className="footer py-3 "
       style={{ bottom: "0", width: "100%" }}
     >
       <Row className="align-items-center">
