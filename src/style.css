@@ -404,9 +404,11 @@ button:focus {
 /* --------- */
 .footer {
   background-color: rgb(10, 4, 22);
+  position: relative; /* Ensure it's in the stacking context */
+  z-index: 10; /* Increase this value */
   bottom: 0 !important;
   padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding-bottom: 8px !important;
 }
 .footer-copywright {
   text-align: left !important;
